@@ -12,8 +12,10 @@ Este proyecto corresponde a la Evaluación Sumativa 3 de la asignatura Desarroll
 
 El sistema permite gestionar diferentes tipos de entidades operativas de la empresa, cargando datos desde archivos de texto y proporcionando una interfaz gráfica básica para la interacción.
 
-🚀 Funcionalidades del sistema
-✅ Lo que el sistema SÍ puede hacer:
+# 🚀 Funcionalidades del sistema
+
+
+# ✅ Lo que el sistema SÍ puede hacer:
 📂 Carga automática desde archivos
 
 Lee 4 archivos .txt con formato simple (campo1;campo2;campo3)
@@ -64,7 +66,7 @@ Muestra lista completa
 
 Total de entidades gestionadas
 
-#❌ Lo que el sistema NO puede hacer (limitaciones):
+# ❌ Lo que el sistema NO puede hacer (limitaciones):
 
 ❌ No guarda datos persistentemente
 
@@ -86,7 +88,7 @@ Excepciones básicas sin recuperación
 
 Si falla un archivo, continúa sin esos datos
 
-#⚙️ Instrucciones para clonar y ejecutar el proyecto
+# ⚙️ Instrucciones para clonar y ejecutar el proyecto
 1. Clona el repositorio desde GitHub:
 git clone https://github.com/usuario/salmonttapp.git
 
@@ -110,7 +112,7 @@ javac -d . ui/Main.java model/*.java data/*.java ui/*.java
 Desde la misma ubicación
 java ui.Main
 
-🧪 Cómo probar el sistema
+# 🧪 Cómo probar el sistema
 Prueba 1: Carga de archivos
 ✅ Verifica que aparezcan mensajes de carga en consola
 
