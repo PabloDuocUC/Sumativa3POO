@@ -1,13 +1,13 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
 # 🧠 Sumativa 3 Programacion orientada a objetos
-👤 Autor del proyecto
+#👤 Autor del proyecto
 Nombre completo: Pablo Nicolas Alonso Gallardo Gallardo
 
 Carrera: Analista Programador
 
 Sede: Sede Online
 
-📘 Descripción general del sistema
+#📘 Descripción general del sistema
 Este proyecto corresponde a la Evaluación Sumativa 3 de la asignatura Desarrollo Orientado a Objetos I. Se trata de un sistema para una salmonera, cuyo objetivo es modelar y gestionar entidades representativas de la empresa salmonera Salmontt, aplicando los principios de encapsulamiento, herencia, polimorfismo e interfaces.
 
 El sistema permite gestionar diferentes tipos de entidades operativas de la empresa, cargando datos desde archivos de texto y proporcionando una interfaz gráfica básica para la interacción.
@@ -64,7 +64,7 @@ Muestra lista completa
 
 Total de entidades gestionadas
 
-❌ Lo que el sistema NO puede hacer (limitaciones):
+#❌ Lo que el sistema NO puede hacer (limitaciones):
 
 ❌ No guarda datos persistentemente
 
@@ -86,7 +86,7 @@ Excepciones básicas sin recuperación
 
 Si falla un archivo, continúa sin esos datos
 
-⚙️ Instrucciones para clonar y ejecutar el proyecto
+#⚙️ Instrucciones para clonar y ejecutar el proyecto
 1. Clona el repositorio desde GitHub:
 git clone https://github.com/usuario/salmonttapp.git
 
@@ -101,11 +101,30 @@ Importa como proyecto Java existente
 Verifica que la estructura de paquetes sea correcta
 
 4. Compila desde terminal:
-# Ubícate en la carpeta src/
+Ubícate en la carpeta src/
 cd src/
 # Compila todas las clases
 javac -d . ui/Main.java model/*.java data/*.java ui/*.java
 
 5. Ejecuta el programa:
-# Desde la misma ubicación
+Desde la misma ubicación
 java ui.Main
+
+🧪 Cómo probar el sistema
+Prueba 1: Carga de archivos
+✅ Verifica que aparezcan mensajes de carga en consola
+
+Prueba 2: Uso de GUI
+1. Selecciona "Agregar Empleado"
+2. Ingresa datos válidos
+3. Verifica que aparece mensaje de confirmación
+
+Prueba 3: Resumen
+1. Selecciona "Mostrar Resumen"
+2. Verifica que aparezcan todos los tipos
+3. Comprueba que los contadores sean correctos
+
+Prueba 4: instanceof
+✅ Mira la consola al iniciar - debe mostrar diferenciación por tipos
+
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluación Final Transversal EFT
