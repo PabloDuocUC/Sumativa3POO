@@ -1,13 +1,13 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
 # 🧠 Sumativa 3 Programacion orientada a objetos
-#👤 Autor del proyecto
+# 👤 Autor del proyecto
 Nombre completo: Pablo Nicolas Alonso Gallardo Gallardo
 
 Carrera: Analista Programador
 
 Sede: Sede Online
 
-#📘 Descripción general del sistema
+# 📘 Descripción general del sistema
 Este proyecto corresponde a la Evaluación Sumativa 3 de la asignatura Desarrollo Orientado a Objetos I. Se trata de un sistema para una salmonera, cuyo objetivo es modelar y gestionar entidades representativas de la empresa salmonera Salmontt, aplicando los principios de encapsulamiento, herencia, polimorfismo e interfaces.
 
 El sistema permite gestionar diferentes tipos de entidades operativas de la empresa, cargando datos desde archivos de texto y proporcionando una interfaz gráfica básica para la interacción.
