@@ -105,7 +105,7 @@ Verifica que la estructura de paquetes sea correcta
 4. Compila desde terminal:
 Ubícate en la carpeta src/
 cd src/
-# Compila todas las clases
+Compila todas las clases
 javac -d . ui/Main.java model/*.java data/*.java ui/*.java
 
 5. Ejecuta el programa:
